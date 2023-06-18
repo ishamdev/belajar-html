@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Hyperlink</title>
+</head>
+<body>
+
+    <!-- hyperlink menggunakan tag <a></a> (Anchor)
+    
+    target
+    _blank: Tautan akan dibuka di tab atau jendela baru.
+    _self: Tautan akan dibuka di frame atau jendela saat ini (default).
+    _parent: Tautan akan dibuka di frame parent, jika ada.
+    _top: Tautan akan dibuka di jendela paling atas (menutup semua frame).
+    -->
+
+    <!-- contoh external link -->
+    <p>Menuju Halaman google klik<a href="https://www.google.com/" target="_blank">Disini</a></p>
+
+    <!-- contoh internal link -->
+    <p>Menuju Halaman Heading & Paragraf,Klik <a href="heading-paragraf.html">disini</a></p>
+    <p>Menuju Halaman list,Klik <a href="list.html">disini</a></p>
+
+    <!-- 
+        note :
+        apabila ingin mealkukan link internal pada folder yang berbeda bisa mengguanakn "../" untuk keluar 1 directory dan "../../" keluar 2 directory
+
+     -->
+
+     <!-- melakukan link di 1 halaman yang sama menggunakan # -->
+     <p>pindah bagian 1 2 3</p>
+     <ul>
+        <li>Menuju bagian 1,klik <a href="#bagian1">disini</a></li>
+        <li>Menuju bagian 2,klik <a href="#bagian2">disini</a></li>
+        <li>Menuju bagian 3,klik <a href="#bagian3">disini</a></li>
+     </ul>
+
+
+     <h1 id="bagian1">Bagian 1</h1>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores expedita magni corporis harum nam blanditiis laborum, dolorem modi cupiditate inventore nobis voluptatem facilis autem fuga ex deserunt quia perferendis!
+     </p>
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <h1 id="bagian2">Bagian 2</h1>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores expedita magni corporis harum nam blanditiis laborum, dolorem modi cupiditate inventore nobis voluptatem facilis autem fuga ex deserunt quia perferendis!
+     </p>
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <h1 id="bagian3">Bagian 3</h1>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores expedita magni corporis harum nam blanditiis laborum, dolorem modi cupiditate inventore nobis voluptatem facilis autem fuga ex deserunt quia perferendis!
+     </p>
+
+</body>
+</html>

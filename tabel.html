@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tabel</title>
+</head>
+<body>
+    <!-- 
+        - <table>: Elemen <table> digunakan untuk membuat kontainer utama tabel.
+        - <tr>: Elemen <tr> (table row) digunakan untuk mendefinisikan baris dalam tabel.
+        - <th>: Elemen <th> (table header) digunakan untuk mendefinisikan sel header dalam tabel. Sel ini biasanya digunakan untuk judul atau nama kolom.
+        - <td>: Elemen <td> (table data) digunakan untuk mendefinisikan sel data dalam tabel. Sel ini digunakan untuk menampilkan nilai atau data pada baris dan kolom tertentu.
+        - <thead>, <tbody>, <tfoot>: Elemen <thead>, <tbody>, dan <tfoot> digunakan untuk mengelompokkan bagian-bagian tertentu dalam tabel. <thead> digunakan untuk mengelompokkan baris header, <tbody> untuk mengelompokkan baris data, dan <tfoot> untuk mengelompokkan baris footer.
+        - <caption>: Elemen <caption> digunakan untuk memberikan judul atau keterangan tabel.
+        <colgroup> dan <col>: Elemen <colgroup> dan <col> digunakan untuk mengatur gaya atau atribut pada kolom-kolom dalam tabel.
+
+        Atribut pada Table :
+        - border: Menentukan apakah tabel memiliki garis batas dan ketebalannya.
+        - cellspacing: Menentukan jarak antara sel-sel dalam tabel.
+        - cellpadding: Menentukan jarak antara isi sel dan batas sel.
+        - width: Menentukan lebar tabel.
+        - height: Menentukan tinggi tabel.
+        - align: Menentukan posisi tabel secara horizontal (left, center, right).
+        - valign: Menentukan posisi tabel secara vertikal (top, middle, bottom).
+        - bgcolor: Menentukan warna latar belakang tabel.
+        - summary: Memberikan ringkasan atau deskripsi singkat tentang isi tabel.
+        - caption: Menambahkan judul atau keterangan tabel.
+        - bordercolor: Menentukan warna garis batas tabel.
+        - colspan: Menggabungkan sel-sel horizontal.
+        - rowspan: Menggabungkan sel-sel vertikal.
+        headers: Menentukan relasi antara sel dan judul kolom/ baris.
+
+
+
+     -->
+    <table border="2" cellspacing="">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Kolom1</th>
+                <th>Kolom 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th> Baris 1</th>
+                <td>Baris 1 , kolom 1</td>
+                <td>Baris 1 , kolom 2</td>
+            </tr>
+            <tr>
+                <th> Baris 2</th>
+                <td>Baris 2 , kolom 1</td>
+                <td>Baris 2 , kolom 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <br>
+    <!-- table merge -->
+    <table border="1">
+        <tr>
+            <td rowspan="2">2 row</td>
+            <td colspan="2">2 col</td>
+        </tr>
+        
+        <tr>
+            <td>2,2</td>
+            <td>2,3</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+    </table>
+
+</body>
+</html>
